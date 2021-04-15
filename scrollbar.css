@@ -1,3 +1,4 @@
+
 .scroll-bar {
     overflow-y: auto;
 }
@@ -34,7 +35,9 @@ table, th,td {
     
     border-collapse: collapse;
     
-    }
+     
+}
+
     
     th,td {
     
@@ -81,7 +84,7 @@ table, th,td {
     .table-simple tr:hover {
     
     background-color: #acffe3;
-    
+  
     }
 .head-body-foot thead {
 
@@ -119,7 +122,9 @@ background-color: #acffe3;
 
 
 
-
+.scroll-bar {
+    overflow-x:auto ;
+}
 
 
 
@@ -212,6 +217,8 @@ color: purple;
 
 background-color: rgb(243, 136, 13);
 
+box-shadow: 10px 5px 5px #777;
+
 }
 
 .head-body-foot tbody {
@@ -221,6 +228,7 @@ color: rgb(182, 212, 182);
 font-weight: bold;
 
 background-color: rgb(68, 39, 177);
+box-shadow: 10px 5px 5px whitesmoke;
 
 }
 
@@ -232,6 +240,7 @@ background-color: rgb(227, 231, 233);
 
 font-weight:bold ;
 
+box-shadow: 10px 8px 11px blue;
 
 }
 .head-body-foot thead:hover {
@@ -244,5 +253,68 @@ background-color: #acffe3;
 }
 
 .head-body-foot tbody:hover {
-    background-color: mediumspringgreen;
+    background-color: tomato;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table-image {
+
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+    table.GeneratedTable {
+      width: 101%;
+      background-color: #ffffff;
+      border-collapse: collapse;
+      border-width: 2px;
+      border-color: #ff0019;
+      border-style: inset;
+      color: #29b8ff;
+    }
+    
+    table.GeneratedTable td, table.GeneratedTable th {
+      border-width: 2px;
+      border-color: #ff0019;
+      border-style: inset;
+      padding: 3px;
+    }
+    
+    table.GeneratedTable thead {
+      background-color: #fb18ca;
+    }
+    
+    table.GeneratedTable :hover {
+        background-color: #134d29;
+      }
+    </style>
