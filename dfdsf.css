@@ -1,0 +1,65 @@
+.div-content {
+
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    max-width: 50%;
+    
+    position: relative;
+    
+    }
+    
+    .slider-button {
+    
+    border: none;
+    
+    display: inline-block;
+    
+    padding: 17px 8px;
+    
+    vertical-align: middle;
+    
+    overflow: hidden;
+    
+    text-decoration: line-through;
+    
+    color: rgb(5, 50, 252);
+    
+    background-color: transparent;
+    
+    text-align: center;
+    
+    cursor: pointer;
+    
+    white-space: nowrap;
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    transform: translate(0%, -40%);
+    
+    -ms-transform: translate(0%, -60%)
+    
+    }
+    
+    .slider-button:hover {
+    
+    color: rgb(193, 6, 250);
+    
+    background-color:rgb(6, 141, 36);
+    
+    }
+    
+    .display-left {
+    
+    left: 0%;
+    
+    }
+    
+    .display-right {
+    
+    right: 0%;
+    
+    }
