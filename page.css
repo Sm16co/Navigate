@@ -20,7 +20,7 @@ width: 800px;
 margin: auto;
    }
 .navbar li a:hover{
-    background-color: rgb(67, 173, 40);
+    background-color: rgb(40, 53, 173);
     text-decoration-style: dashed;
     text-decoration-thickness: 1,9px;  
     box-shadow: 3px 3px rgb(255, 160, 250);
